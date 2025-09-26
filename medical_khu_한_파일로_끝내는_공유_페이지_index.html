@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>경희대 2028 Medical 전형 요약</title>
+  <!-- 간단한 OG 태그 (카톡 미리보기 품질↑) -->
+  <meta property="og:title" content="경희대 2028 Medical 전형 요약" />
+  <meta property="og:description" content="전형별 핵심만 모바일 카드로 한눈에" />
+  <meta property="og:image" content="https://medical-khu.vercel.app/og/medical-card.png" />
+  <meta property="og:url" content="https://medical-khu.vercel.app" />
+  <!-- Tailwind CDN: 빠르게 스타일 적용용 (선택) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* 시스템 폰트 스택 */
+    html, body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans KR, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+  </style>
+</head>
+<body class="bg-white text-slate-900">
+  <div class="mx-auto max-w-md">
+    <!-- 헤더 -->
+    <header class="sticky top-0 z-10 bg-white/90 backdrop-blur border-b border-slate-200">
+      <div class="px-4 py-3 flex items-center justify-between">
+        <div class="flex flex-col">
+          <h1 class="text-lg font-semibold">경희대 2028 Medical</h1>
+          <p class="text-xs text-slate-500">전형별 핵심 요약 · 모바일 뷰</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="kakao-share" class="inline-flex items-center gap-1 rounded-2xl bg-[#FEE500] text-slate-900 text-xs font-semibold px-3 py-1.5 shadow-sm active:scale-[0.98]">
+            <!-- 카카오 풍선 아이콘 -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"><path d="M12 3C6.477 3 2 6.832 2 11.563c0 2.79 1.665 5.257 4.256 6.816-.148.52-.538 1.89-.615 2.183-.097.372.136.365.287.266.118-.077 1.873-1.276 2.631-1.791.504.074 1.022.113 1.54.114 5.523 0 10-3.832 10-8.563C20 6.832 17.523 3 12 3z"/></svg>
+            공유
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 안내 배너 -->
+    <section class="px-4 py-3">
+      <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3 text-[13px] leading-5 text-slate-700">
+        일부 세부 기준(반영영역·비율·모집인원 등)은 추후 확정 공지 시 변경될 수 있습니다.
+      </div>
+    </section>
+
+    <!-- 카드 리스트 (데이터는 필요에 맞게 수정) -->
+    <main class="px-4 pb-8">
+      <div class="flex flex-col gap-4">
+        <!-- 카드 1 -->
+        <article class="rounded-2xl border border-slate-200 shadow bg-white overflow-hidden">
+          <div class="p-4">
+            <div class="mb-2 flex items-center gap-2">
+              <h2 class="text-base font-semibold leading-6 text-slate-900">학생부교과 (지역균형)</h2>
+              <span class="inline-flex items-center rounded-full bg-indigo-50 px-2.5 py-1 text-xs font-medium text-indigo-700">Medical</span>
+            </div>
+            <div class="grid grid-cols-1 gap-3 text-[15px] leading-5 text-slate-800">
+              <div>
+                <div class="text-[11px] uppercase tracking-wide text-slate-500">선발 방법</div>
+                학생부 교과·비교과 70% + 교과종합평가 30%
+              </div>
+              <div>
+                <div class="text-[11px] uppercase tracking-wide text-slate-500">수능 최저</div>
+                의학계열 공통: 상위 3개 영역 합 4 이내 + 한국사 5등급 이내 (탐구는 통사·통과 중 상위 1과목)
+              </div>
+              <div>
+                <div class="text-[11px] uppercase tracking-wide text-slate-500">기타/비고</div>
+                자연계열 권장과목 이수 여부 정성평가 반영
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 카드 2 -->
+        <article class="rounded-2xl border border-slate-200 shadow bg-white overflow-hidden">
+          <div class="p-4">
+            <div class="mb-2 flex items-center gap-2">
+              <h2 class="text-base font-semibold leading-6 text-slate-900">학생부종합 네오르네상스 (면접형)</h2>
+              <span class="inline-flex items-center rounded-full bg-indigo-50 px-2.5 py-1 text-xs font-medium text-indigo-700">Medical</span>
+            </div>
+            <div class="grid grid-cols-1 gap-3 text-[15px] leading-5 text-slate-800">
+              <div>
+                <div class="text-[11px] uppercase tracking-wide text-slate-500">선발 방법</div>
+                1단계: 서류 100%(의학계열/약학과 5배수) → 2단계: 1단계 70% + 면접 30%
+              </div>
+              <div>
+                <div class="text-[11px] uppercase tracking-wide text-slate-500">수능 최저</div>
+                없음
+              </div>
+              <div>
+                <div class="text-[11px] uppercase tracking-wide text-slate-500">기타/비고</div>
+                자연계열 권장과목 이수 여부 정성평가 반영
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 필요 시 카드 더 추가 -->
+      </div>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="px-4 pb-8 text-[12px] text-slate-500">
+      ※ 본 요약은 공식 모집요강의 해석을 돕기 위한 안내입니다. 최종 판단은 해당 연도 모집요강을 기준으로 하세요.
+    </footer>
+  </div>
+
+  <!-- Kakao JS SDK -->
+  <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" crossorigin="anonymous"></script>
+  <script>
+    // ★ 여기에 본인 JavaScript 키를 넣으세요
+    const KAKAO_JS_KEY = '609fa6dbc199190d5d77b62a450889d1';
+    const PAGE_URL = 'https://medical-khu.vercel.app';
+
+    // SDK 초기화
+    window.addEventListener('DOMContentLoaded', () => {
+      try {
+        if (!window.Kakao?.isInitialized?.()) {
+          window.Kakao.init(KAKAO_JS_KEY);
+        }
+      } catch (e) {
+        console.error('Kakao SDK init 실패:', e);
+      }
+
+      // 공유 버튼 핸들러
+      document.getElementById('kakao-share').addEventListener('click', () => {
+        try {
+          window.Kakao.Share.sendDefault({
+            objectType: 'feed',
+            content: {
+              title: '경희대 2028 Medical 전형 요약',
+              description: '전형별 핵심만 모바일 카드로 정리',
+              imageUrl: PAGE_URL + '/og/medical-card.png',
+              link: { mobileWebUrl: PAGE_URL, webUrl: PAGE_URL }
+            },
+            buttons: [
+              { title: '자세히 보기', link: { mobileWebUrl: PAGE_URL, webUrl: PAGE_URL } }
+            ]
+          });
+        } catch (e) {
+          console.error(e);
+          alert('카카오 공유 중 오류가 발생했어요. 콘솔 로그를 확인하세요.');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
